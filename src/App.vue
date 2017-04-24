@@ -1,6 +1,6 @@
 <template>
 	<div id="app">
-		<p class="style-scss">me doing work</p>
+		<p>App container</p>
 		<router-view></router-view>
 	</div>
 </template>
