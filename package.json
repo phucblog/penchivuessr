@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "axios": "^0.16.1",
+    "bluebird": "^3.5.0",
     "body-parser": "^1.17.1",
     "compression": "^1.6.2",
     "cookie-parser": "^1.4.3",
@@ -24,6 +25,7 @@
     "express": "^4.15.2",
     "firebase": "^3.7.2",
     "lru-cache": "^4.0.2",
+    "mongoose": "^4.9.6",
     "morgan": "^1.8.1",
     "serve-favicon": "^2.4.1",
     "vue": "^2.2.4",

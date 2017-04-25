@@ -9,6 +9,9 @@ const compression = require('compression');
 
 // routes init require
 const AppllicationRoutes = require('./www/routes');
+// Database Connection
+const dbConnector = require('./www/helpers/database.helper');
+
 
 const resolve = file => path.resolve(__dirname, file);
 
@@ -18,6 +21,9 @@ const serverInfo =
 	`vue-server-renderer/${require('vue-server-renderer/package.json').version}`;
 
 const app = express();
+
+// DB init
+dbConnector.init();
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
